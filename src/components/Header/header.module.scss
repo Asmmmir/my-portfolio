@@ -1,0 +1,80 @@
+$black-color: #171718;
+$black-border: #26292D;
+$white: #fff;
+$purple: #5C62EC;
+
+$dark-bg: $black-color;
+$dark-border: $black-border;
+$header-text: $white;
+$accent: $purple;
+$text-color: $black-color;
+
+.header {
+    padding: 40px 0;
+     background-color: $dark-bg;
+    color: $header-text;
+    min-height: 695px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url('../../../public/img/abstract.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+
+    &__wrapper {
+        max-width: 660px;
+        padding: 0 15px;
+    }
+
+    &__title{
+        font-family: 'DM sans';
+        font-style: 40px;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 20px;
+
+        strong {
+            font-size: 60px;
+            font-weight: 700;
+        }
+        em {
+            font-style: normal;
+            color:$accent;
+        }
+        
+    }
+    &__text {
+        margin-bottom: 40px;
+        font-style: 18px;
+        line-height: 1.33;
+
+        p + p{
+            margin-top: 0.5em;
+        }
+    }
+
+.btn {
+    height: 48px;
+    display: inline-block;
+    background-color: $accent;
+    padding: 12px 28px;
+    border-radius: 5px;
+    color: $white;
+    letter-spacing: 0.15px;
+    font-style: 16px;
+    font-weight: 500;
+
+    &:hover {
+        opacity: 0.8;
+        transition: opacity 0.2s ease-in;
+    }
+    &:active{
+        position: relative;
+        top: 1px;
+    }
+}
+
+}
