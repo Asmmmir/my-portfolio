@@ -6,12 +6,12 @@ const Navigation = () => {
     <nav className={styles.nav}>
       <div className={styles.nav__container}>
         <div className={styles.nav__row}>
-          <a href="./index.html" className={styles.nav__logo}>
+          <a href="/" className={styles.nav__logo}>
             <strong> Frontend </strong> portfolio
           </a>
           <ul className={styles.nav__list}>
             <li className={styles.nav__list_item}>
-            <NavLink className={styles.active} to='/projects' >Projects</NavLink>
+            <NavLink className={styles.active} to='/' >Projects</NavLink>
             </li>
             <li className={styles.nav__list_item}>
             <NavLink to='/skills'>Skills</NavLink>
