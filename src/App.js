@@ -9,9 +9,8 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="/" Component={Main}/>
-        <Route path="/my-portfolio" Component={Main}/>
-        <Route path="/project/:id" Component={Project} />
+        <Route index path="/my-portfolio" Component={Main}/>
+        <Route path="/my-portfolio/project/:id" Component={Project} />
       </Routes>
 
       <Footer />

@@ -11,7 +11,7 @@ const Navigation = () => {
           </a>
           <ul className={styles.nav__list}>
             <li className={styles.nav__list_item}>
-            <NavLink className={styles.active} to='/' >Projects</NavLink>
+            <NavLink className={styles.active} to='/my-portfolio' >Projects</NavLink>
             </li>
             <li className={styles.nav__list_item}>
             <NavLink to='/skills'>Skills</NavLink>
