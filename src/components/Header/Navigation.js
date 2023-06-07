@@ -6,7 +6,7 @@ const Navigation = () => {
     <nav className={styles.nav}>
       <div className={styles.nav__container}>
         <div className={styles.nav__row}>
-          <a href="/" className={styles.nav__logo}>
+          <a href="/my-portfolio" className={styles.nav__logo}>
             <strong> Frontend </strong> portfolio
           </a>
           <ul className={styles.nav__list}>
