@@ -32,6 +32,10 @@ $accent: $purple;
         row-gap: 20px;
         flex-wrap: wrap;
 
+        @media (max-width:620px) {
+            justify-content: space-between;
+        }
+
         a {
             color: $white;
         }
@@ -40,7 +44,7 @@ $accent: $purple;
     &__logo {
         font-size: 24px;
         font-family: 'Poppins', sans-serif;
-
+        margin-right: auto;
         strong {
             font-weight: 700;
         }
@@ -64,4 +68,9 @@ $accent: $purple;
             }      
         }
     }
-}
+
+
+    
+    }
+
+   

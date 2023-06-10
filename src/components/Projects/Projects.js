@@ -9,7 +9,7 @@ const Projects = () => {
 
             <ul className={styles.projects__lists}>
                 <Link to='/my-portfolio/project/1' className={styles.projects__item}>
-                    <img src="../my-portfolio/img/01.jpg" alt="" />
+                    <img src="./my-portfolio/img/01.jpg" alt="" />
                     <h3 className={styles.projects__name}>Movies App</h3>
                 </Link>
                 <Link to='/my-portfolio/project/2' className={styles.projects__item}>
