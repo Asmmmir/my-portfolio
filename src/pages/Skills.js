@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "./skills.module.scss";
+import { useSelector } from "react-redux";
 
 const Skills = () => {
+  const mode = useSelector((state) => state.mode)
+
+
   return (
-    <div className={styles.skills}>
+    <div className={`${styles.skills} ${mode ? '' : styles.dark}`}>
       <div className={styles.skills__container}>
         <h1 className={styles.skills__title}>Skills</h1>
 

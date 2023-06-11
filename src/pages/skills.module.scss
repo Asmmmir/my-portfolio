@@ -2,6 +2,7 @@ $accent: #5C62EC;
 
 
 .skills {
+
     &__container {
         margin: 0 auto;
         max-width: 1200px;
@@ -28,6 +29,8 @@ $accent: #5C62EC;
         font-weight: 700;
         margin-bottom: 60px;
         text-align: center;
+
+
     }
 
     &__contentList {
@@ -47,4 +50,7 @@ $accent: #5C62EC;
         }
     }
 
+}
+.dark {
+    color: white;
 }

@@ -45,6 +45,10 @@ $text-color: $black-color;
             width: 45px;
             height: 45px;
 
+            &:hover {
+                fill:$accent
+            }
+
             @media (max-width:620px) {
                 width: 28px;
                 height: 28px;   

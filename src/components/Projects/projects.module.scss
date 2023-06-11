@@ -30,7 +30,7 @@ $text-color: $black-color;
 
         @media (max-width:620px) {
             font-size: 40px;
-            
+
         }
 
     }
@@ -67,13 +67,26 @@ $text-color: $black-color;
         img {
             border-radius: 10px;
             width: 100%;
-        
+
+        }
+
+        @media (max-width:400px) {
+            max-width: 300px;
         }
     }
 
 
     @media (max-width:620px) {
         font-size: 40px;
-        padding: 40px 0 ;
+        padding: 40px 0;
+    }
+}
+
+.dark {
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 1);
+    background-color: #252526;
+
+    h3 {
+        color:white
     }
 }

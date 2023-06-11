@@ -83,3 +83,15 @@ $accent: #5C62EC;
         align-items: center;
     }
 }
+
+.dark {
+
+    color: white;
+    svg {
+        fill:white
+    }
+
+    a {
+        color:white;
+    }
+}

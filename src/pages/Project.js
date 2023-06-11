@@ -4,9 +4,10 @@ import { AiFillGithub } from "react-icons/ai";
 import {BiShow} from 'react-icons/bi'
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
+import { useSelector } from "react-redux";
 
 export default function Project() {
-
+  const mode = useSelector((state) => state.mode)
     const {id} = useParams();
 
     useEffect(() => {
@@ -27,7 +28,7 @@ export default function Project() {
 
 
   return (
-    <div className={styles.project}>
+    <div className={`${styles.project} ${mode ? '' : styles.dark}`}>
       <h2 className={styles.project__title}>{project.name}</h2>
 
       <div className={styles.project__container}>

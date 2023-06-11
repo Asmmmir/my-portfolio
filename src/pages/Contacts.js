@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "./contacts.module.scss";
+import { useSelector } from "react-redux";
 
 const Contacts = () => {
+
+  const mode = useSelector((state) => state.mode)
+
   return (
-    <div className={styles.contacts}>
+    <div className={`${styles.contacts} ${mode ? '' : styles.dark}`}>
       <div className={styles.contacts__container}>
         <h1 className={styles.contacts__title}>Contacts</h1>
 

@@ -11,19 +11,26 @@ export default function Footer() {
         <div className={styles.footer__wrapper}>
           <ul className={styles.footer__socials}>
             <li className={styles.footer__socials_item}>
-              <AiFillLinkedin />
+              <a href="https://www.linkedin.com/in/aslanbek-astamirov-977566208/">
+                <AiFillLinkedin />
+              </a>
             </li>
             <li className={styles.footer__socials_item}>
-              <AiFillGithub />
+              <a href="https://github.com/asmmmir">
+                <AiFillGithub />
+              </a>
             </li>
             <li className={styles.footer__socials_item}>
-              <SlSocialVkontakte />
+              <a href="https://vk.com/asmmmir">
+                <SlSocialVkontakte />
+              </a>
             </li>
             <li className={styles.footer__socials_item}>
-              <AiFillInstagram />
+              <a href="https://www.instagram.com/asmmmir/">
+                <AiFillInstagram />
+              </a>
             </li>
           </ul>
-          <div className={styles.footer__socials_copyright}>Copyrights</div>
         </div>
       </div>
     </div>
