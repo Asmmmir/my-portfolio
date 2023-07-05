@@ -16,12 +16,12 @@ export default function Project() {
 
 
     const projects = {
-        1: {name: 'Movie App', image: '../img/01.jpg', stack:'HTML, CSS, JavaScript, Rest API',github: 'https://github.com/Asmmmir/moviemobileapp/tree/moviePage', view: 'https://asmmmir.github.io/moviemobileapp/'},
-        2: {name: 'Fast food shop', image: '../img/02.jpg',stack:'React, Redux, React Router, Rest API', github: 'https://github.com/Asmmmir/justcode_diploma', view: 'https://asmmmir.github.io/justcode_diploma/'},
-        3: {name: 'Video portal', image: '../img/03.jpg',stack:'Template'},
-        4: {name: 'Dating app', image: '../img/04.jpg',stack:'Template'},
-        5: {name: 'Landing', image: '../img/05.jpg',stack:'Template'},
-        6: {name: 'Gaming community', image: '../img/06.jpg',stack:'Template'},
+        1: {name: 'Movies App', image: '../img/01.jpg', stack:'HTML, CSS, JavaScript, Rest API',github: 'https://github.com/Asmmmir/moviemobileapp/tree/moviePage', view: 'https://asmmmir.github.io/moviemobileapp/'},
+        2: {name: 'Fast food shop', image: '../img/02.jpg',stack:'React, Redux, React Router, Rest API (warning ! Server doesn"t work )', github: 'https://github.com/Asmmmir/justcode_diploma', view: 'https://asmmmir.github.io/justcode_diploma/'},
+        3: {name: 'Landing pages', image: '../img/05.jpg',stack:'React, Redux toolkit, React Router, SCSS, Bootstrap', view: 'https://asmmmir.github.io/gazpromarena/', github: 'https://github.com/Asmmmir/gazpromarena' },
+        4: {name: 'Good Food', image: '../img/04.jpg',stack:'React, SCSS, React icons', view: 'https://asmmmir.github.io/good-food', github: 'https://github.com/Asmmmir/good-food' },
+        5: {name: 'Typing speed', image: '../img/06.png',stack:'HTML, CSS, JavaScript', view: 'https://asmmmir.github.io/typeapp/', github: 'https://github.com/Asmmmir/typeapp' },
+
     }
 
     const project = projects[id];

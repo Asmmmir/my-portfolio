@@ -22,7 +22,12 @@ const Skills = () => {
 
           <li className={styles.skills__contentList__item}>
             <h2 className={styles.skills__part}>Backend</h2>
-            <p>NodeJS, MongoDB, Java</p>
+            <p>NodeJS, Java</p>
+          </li>
+
+          <li className={styles.skills__contentList__item}>
+            <h2 className={styles.skills__part}>Database</h2>
+            <p>MongoDB</p>
           </li>
         </ul>
       </div>
