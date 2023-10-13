@@ -21,7 +21,7 @@ const mode = useSelector((state) => state.mode)
           </Link>
           <Link to="/my-portfolio/project/3" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
             <img src="../my-portfolio/img/05.jpg" alt="" />
-            <h3 className={styles.projects__name}>Landing pages</h3>
+            <h3 className={styles.projects__name}>Hastam</h3>
           </Link>
           <Link to="/my-portfolio/project/4" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
             <img src="../my-portfolio/img/04.jpg" alt="" />
