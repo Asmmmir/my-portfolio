@@ -15,10 +15,6 @@ const mode = useSelector((state) => state.mode)
             <img src="../my-portfolio/img/01.jpg" alt="" />
             <h3 className={styles.projects__name}>Movies App</h3>
           </Link>
-          <Link to="/my-portfolio/project/2" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
-            <img src="../my-portfolio/img/02.jpg" alt="" />
-            <h3 className={styles.projects__name}>Fast food shop</h3>
-          </Link>
           <Link to="/my-portfolio/project/3" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
             <img src="../my-portfolio/img/05.jpg" alt="" />
             <h3 className={styles.projects__name}>Hastam</h3>

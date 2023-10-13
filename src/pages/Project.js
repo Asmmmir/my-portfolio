@@ -17,7 +17,6 @@ export default function Project() {
 
     const projects = {
         1: {name: 'Movies App', image: '../img/01.jpg', stack:'HTML, CSS, JavaScript, Rest API',github: 'https://github.com/Asmmmir/moviemobileapp/tree/moviePage', view: 'https://asmmmir.github.io/moviemobileapp/'},
-        2: {name: 'Fast food shop', image: '../img/02.jpg',stack:'React, Redux, React Router, Rest API (warning ! Server doesn"t work )', github: 'https://github.com/Asmmmir/justcode_diploma', view: 'https://asmmmir.github.io/justcode_diploma/'},
         3: {name: 'Hastam', image: '../img/05.jpg',stack:'React, React Router, SCSS, Bootstrap', view: 'https://asmmmir.github.io/hastam/', github: 'https://github.com/Asmmmir/hastam' },
         4: {name: 'Good Food', image: '../img/04.jpg',stack:'React, SCSS, React icons', view: 'https://asmmmir.github.io/good-food', github: 'https://github.com/Asmmmir/good-food' },
         5: {name: 'Typing speed', image: '../img/06.png',stack:'HTML, CSS, JavaScript', view: 'https://asmmmir.github.io/typeapp/', github: 'https://github.com/Asmmmir/typeapp' },
