@@ -8,7 +8,7 @@ const Navigation = () => {
       <div className={styles.nav__container}>
         <div className={styles.nav__row}>
           <Link to="/my-portfolio" className={styles.nav__logo}>
-            <strong> Frontend </strong> portfolio
+            <strong> Asmmmir's </strong> portfolio
           </Link>
           <ModeButton />
           <ul className={styles.nav__list}>

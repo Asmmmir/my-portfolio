@@ -15,14 +15,14 @@ const Skills = () => {
           <li className={styles.skills__contentList__item}>
             <h2 className={styles.skills__part}>Frontend</h2>
             <p>
-              Javascript, TypeScript, ReactJS, React Native, Redux, HTML, CSS,
-              NPM, Bootstrap, MaterialUI, NextJS, Git{" "}
+              Javascript, TypeScript, ReactJS, Vue3 ,Redux, RTK, HTML, CSS,
+              NPM, Bootstrap, Material UI, Next.js, Nuxt.js, Tailwind, Vitest, Jest, Vite, RESTful API Git{" "}
             </p>
           </li>
 
           <li className={styles.skills__contentList__item}>
             <h2 className={styles.skills__part}>Backend</h2>
-            <p>NodeJS, Java</p>
+            <p>NodeJS</p>
           </li>
 
           <li className={styles.skills__contentList__item}>

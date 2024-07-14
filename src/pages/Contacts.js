@@ -14,7 +14,7 @@ const Contacts = () => {
         <ul className={styles.contacts__contentList}>
           <li className={styles.contacts__contentList__item}>
             <h2 className={styles.contacts__part}>Location</h2>
-            <p>Atyrau, Kazakhstan</p>
+            <p>Moscow, Russia</p>
           </li>
 
           <li className={styles.contacts__contentList__item}>
