@@ -11,18 +11,8 @@ export default function Footer() {
         <div className={styles.footer__wrapper}>
           <ul className={styles.footer__socials}>
             <li className={styles.footer__socials_item}>
-              <a href="https://www.linkedin.com/in/aslanbek-astamirov-977566208/">
-                <AiFillLinkedin />
-              </a>
-            </li>
-            <li className={styles.footer__socials_item}>
               <a href="https://github.com/asmmmir">
                 <AiFillGithub />
-              </a>
-            </li>
-            <li className={styles.footer__socials_item}>
-              <a href="https://vk.com/asmmmir">
-                <SlSocialVkontakte />
               </a>
             </li>
             <li className={styles.footer__socials_item}>
