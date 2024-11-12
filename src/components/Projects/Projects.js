@@ -11,10 +11,10 @@ const mode = useSelector((state) => state.mode)
         <h2 className={styles.projects__title}>Projects</h2>
 
         <ul className={styles.projects__lists}>
-          <Link to="/my-portfolio/project/1" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
-            <img src="../my-portfolio/img/instagram.jpg" alt="" />
-            <h3 className={styles.projects__name}>Instagram Clone (still in process)</h3>
-          </Link>
+          // <Link to="/my-portfolio/project/1" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
+          //   <img src="../my-portfolio/img/instagram.jpg" alt="" />
+          //   <h3 className={styles.projects__name}>Instagram Clone (still in process)</h3>
+          // </Link>
           <Link to="/my-portfolio/project/6" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
             <img src="../my-portfolio/img/kropp.png" alt="" />
             <h3 className={styles.projects__name}>Kropp crossfit</h3>
@@ -31,10 +31,10 @@ const mode = useSelector((state) => state.mode)
             <img src="../my-portfolio/img/goodfood.jpg" alt="" />
             <h3 className={styles.projects__name}>Good Food</h3>
           </Link>
-          <Link to="/my-portfolio/project/5" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
-            <img src="../my-portfolio/img/typeapp.png" alt="" />
-            <h3 className={styles.projects__name}>Typing speed</h3>
-          </Link>
+          // <Link to="/my-portfolio/project/5" className={`${styles.projects__item} ${mode ? '' : styles.dark}`}>
+          //   <img src="../my-portfolio/img/typeapp.png" alt="" />
+          //   <h3 className={styles.projects__name}>Typing speed</h3>
+          // </Link>
         </ul>
       </div>
     </div>
